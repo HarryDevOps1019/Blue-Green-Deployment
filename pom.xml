@@ -80,15 +80,18 @@
 	
 	</build>
 
-		<distributionManagement>
-        <repository>
-            <id>maven-releases</id>
-            <url>http://65.2.129.62:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshots</id>
-            <url>http://65.2.129.62:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+			
+	<distributionManagement>
+	    <repository>
+	      <id>maven-release</id>
+	      <name>Releases</name>
+	      <url>http://13.235.27.0:8081/repository/maven-releases/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>maven-snapshots</id>
+	      <name>Snapshot</name>
+	      <url>http://13.235.27.0:8081/repository/maven-snapshots/</url>
+	    </snapshotRepository>
+	</distributionManagement>
 
 </project>
